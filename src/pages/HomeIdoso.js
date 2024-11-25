@@ -11,7 +11,7 @@ function HomeIdoso() {
       <body className='home-cuidador-body'>
         <div>
             <button>
-                <Link to="/perfil-idoso">
+                <Link to="/lista-cuidadores">
                     Encontre Cuidador
                 </Link>
             </button>

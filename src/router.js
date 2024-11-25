@@ -6,6 +6,7 @@ import HomeCuidador from "./pages/HomeCuidador";
 import PerfilIdoso from "./pages/PerfilIdoso";
 import PerfilCuidador from "./pages/PerfilCuidador";
 import HomeIdoso from "./pages/HomeIdoso";
+import ListaCuidadores from "./pages/ListaCuidadores";
 
 const AppRouter = () => {
   return (
@@ -17,6 +18,7 @@ const AppRouter = () => {
         <Route path="/perfil-idoso" element={<PerfilIdoso />} />
         <Route path="/perfil-cuidador" element={<PerfilCuidador />} />
         <Route path="/home-idoso" element={<HomeIdoso />} />
+        <Route path="/lista-cuidadores" element={<ListaCuidadores />} />
       </Routes>
     </Router>
   );

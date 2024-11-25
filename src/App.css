@@ -403,6 +403,55 @@
   font-weight: 500;
 }
 
+.lista-cuidadores{
+  gap: 50px;
+  display: flex;
+} 
+
+.lista-cuidadores img{
+  width: 80px;
+  height: 80px;
+} 
+
+.lista-cuidadores div{
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  gap: 0px;
+}
+
+.margin-top{
+  margin-top: -30px;
+}
+
+.lista-cuidadores h1{
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0px !important;
+}
+
+.lista-cuidadores h4{
+  margin: 0px !important;
+}
+
+.avaliation{
+  display: flex;
+  width: 100px;
+  flex-direction: row !important;
+  margin-top: 20px;
+}
+
+.avaliation i{
+  width: 20px;
+  font-size: 14px;
+  color: rgb(219, 200, 30);
+}
+
+.avaliation div{
+  width: 20px;
+  font-size: 14px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
