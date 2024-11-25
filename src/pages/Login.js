@@ -1,6 +1,8 @@
 import logo from '../assets/img/Logo.png';
 import femaleDoctor from '../assets/img/female-doctor.png';
 import '../App.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -15,13 +17,15 @@ function Login() {
         </div>
         <form className='login-form'>
             <input type="text" placeholder="Email" />
-            <input type="text" placeholder="Senha" />
+            <input type="password" placeholder="Senha" />
             <div>Esqueceu seu email?</div>
             <button>Login</button>
         </form>
         <div className='login-create-account'>
             <h2>Não tem uma conta? </h2>
-            <h1>Cadastre-se</h1>
+            <Link to="/create-account-cuidador">
+              <h1>Cadastre-se</h1>
+            </Link>
         </div>
       </body>
     </div>
