@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function HomeCuidador() {
+function HomeIdoso() {
   return (
     <div className="App">
       <Header>  </Header>
@@ -12,19 +12,19 @@ function HomeCuidador() {
         <div>
             <button>
                 <Link to="/perfil-idoso">
-                    Meu Paciente
+                    Encontre Cuidador
                 </Link>
             </button>
             <button>
-                <Link to="/perfil-cuidador">
-                    Editar Perfil
+                <Link to="/perfil-idoso">
+                    Editar Paciente
                 </Link>
             </button>
             <button>
                 Notificações
             </button>
             <button>
-                Disponibilizar Antecedentes
+                Pagamentos
             </button>
             <button>
                 <Link to="/">
@@ -37,4 +37,4 @@ function HomeCuidador() {
   );
 }
 
-export default HomeCuidador;
+export default HomeIdoso;

@@ -358,6 +358,12 @@
   font-weight: 100;
 }
 
+.home-cuidador-body a{
+  text-decoration: none;
+  color: #f0f3f6;
+}
+
+
 .perfil-idoso-header{
   width: 100%;
   display: flex;
