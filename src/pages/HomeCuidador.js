@@ -11,10 +11,14 @@ function HomeCuidador() {
       <body className='home-cuidador-body'>
         <div>
             <button>
-                Meu Paciente
+                <Link to="/perfil-idoso">
+                    Meu Paciente
+                </Link>
             </button>
             <button>
-                Editar Perfil
+                <Link to="/perfil-cuidador">
+                    Editar Perfil
+                </Link>
             </button>
             <button>
                 Notificações

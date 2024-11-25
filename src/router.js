@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import CreateAccountCuidador from "./pages/CreateAccountCuidador";
 import HomeCuidador from "./pages/HomeCuidador";
 import PerfilIdoso from "./pages/PerfilIdoso";
+import PerfilCuidador from "./pages/PerfilCuidador";
 
 const AppRouter = () => {
   return (
@@ -13,6 +14,7 @@ const AppRouter = () => {
         <Route path="/create-account-cuidador" element={<CreateAccountCuidador />} />
         <Route path="/home-cuidador" element={<HomeCuidador />} />
         <Route path="/perfil-idoso" element={<PerfilIdoso />} />
+        <Route path="/perfil-cuidador" element={<PerfilCuidador />} />
       </Routes>
     </Router>
   );
