@@ -293,6 +293,45 @@
   justify-content: center;
 }
 
+.perfil-idoso-header p{
+  color: #0570b1;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 700;
+}
+
+.perfil-idoso-header-div{
+  width: 80%;
+  margin-top: -150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 70vh;
+  background-color: #f0f3f6;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.perfil-idoso-header-div div{
+  display: flex;
+  gap: 20px;
+}
+
+.perfil-idoso-header-div img{
+  height: 50px;
+  width: 55px;
+}
+
+.dados-idoso{
+  display: flex;
+  flex-direction: column;
+  height: 50px !important;
+  gap: 0px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
 .home-cuidador-body div{
   width: 80%;
   margin-top: -150px;
@@ -317,6 +356,45 @@
   font-size: 13px;
   font-family: 'DM Sans', sans-serif !important;
   font-weight: 100;
+}
+
+.perfil-idoso-header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.perfil-idoso-header h4{
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 100;
+  color: #495057
+}
+
+.perfil-idoso-header div{
+  width: 80%;
+}
+
+.perfil-idoso-header ul{
+  width: 90%;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 700;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.perfil-idoso-header li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.perfil-idoso-header h2{
+  font-size: 15px;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 500;
 }
 
 @keyframes App-logo-spin {
