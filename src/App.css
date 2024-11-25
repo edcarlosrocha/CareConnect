@@ -248,7 +248,7 @@
 
 .header-global {
   background-color: #d1dce2;
-  min-height: 30vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,6 +285,38 @@
 .perfil-header img{
   width: 40px;
   height: 40px;
+}
+
+.home-cuidador-body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-cuidador-body div{
+  width: 80%;
+  margin-top: -150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 70vh;
+  background-color: #f0f3f6;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 60px;
+  align-items: center;
+}
+
+.home-cuidador-body button{
+  background-color: #0570b1;
+  color: #f0f3f6;
+  border: 0px;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 100;
 }
 
 @keyframes App-logo-spin {
