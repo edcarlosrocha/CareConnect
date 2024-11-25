@@ -246,6 +246,47 @@
   cursor: pointer;
 }
 
+.header-global {
+  background-color: #d1dce2;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: brand;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #0570b1;
+  font-size: 16px;
+}
+
+.perfil-header {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #868686;
+  font-family: 'DM Sans', sans-serif !important;
+  gap: 10px;
+  font-weight: 100;
+}
+
+.perfil-header img{
+  width: 40px;
+  height: 40px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
